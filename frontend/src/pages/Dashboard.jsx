@@ -16,6 +16,7 @@ function Dashboard() {
 
 	useEffect(() => {
 		if (isError) {
+			console.log("this is the code ");
 			console.log(message);
 		}
 
@@ -23,12 +24,14 @@ function Dashboard() {
 			navigate("/login");
 		}
 
-		dispatch(getGoals());
+		if (user) {
+			dispatch(getGoals());
+		}
 
 		return () => {
 			dispatch(reset());
 		};
-	}, [user, navigate, isError, message, dispatch]);
+	}, [user, isError, message, dispatch]);
 
 	if (isLoading) {
 		return <Spinner />;
