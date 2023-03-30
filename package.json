@@ -4,7 +4,7 @@
 	"description": "Traversy media youtube tutorial",
 	"main": "server.js",
 	"scripts": {
-		"start": "node backend/server.js",
+		"start": "npm install && node backend/server.js",
 		"server": "nodemon backend/server.js",
 		"client": "npm start --prefix frontend",
 		"build": "npm install --prefix frontend && npm run build --prefix frontend",
