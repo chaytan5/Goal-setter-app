@@ -1,5 +1,5 @@
 {
-	"name": "mern-goal-app-traversy",
+	"name": "goal-setter-app",
 	"version": "1.0.0",
 	"description": "Traversy media youtube tutorial",
 	"main": "server.js",
