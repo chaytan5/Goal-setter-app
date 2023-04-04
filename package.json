@@ -1,7 +1,7 @@
 {
 	"name": "goal-setter-app",
 	"version": "1.0.0",
-	"description": "Traversy media youtube tutorial",
+	"description": "Set your goal privately and securely.",
 	"main": "server.js",
 	"scripts": {
 		"start": "node backend/server.js",
@@ -11,7 +11,7 @@
 		"dev": "concurrently \"npm run server\" \"npm run client\"",
 		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
 	},
-	"author": "Chetan Arora",
+	"author": "Chetan Arora <chaytanarora@gmail.com> (https://github.com/chaytan5)",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
