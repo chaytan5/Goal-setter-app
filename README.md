@@ -2,10 +2,9 @@
 
 This app helps users to document their Goals and store them in private and secure way. Only the users can access their goals by logging in to the app.
 
-[Project Demo Link](https://goal-setter-app-rk2j.onrender.com/)
+[Project Demo Link](https://goal-setter-app-bay.vercel.app/)
 
-**Please note**: The app may take 50-60s to open initally, this happens because the server is suspended after sometime.
-
+[Backend Repo Link](https://github.com/chaytan5/goal-app-backend)
 ## Features
 
 - Register and Login using Email
